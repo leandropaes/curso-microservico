@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb824fe1-966d-4cc2-af89-3c9d26090b80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/genres.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/genres.ibd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/GenreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Genre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/GenreFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_22_174725_create_genres_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/GenresSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/laravel/categories.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/categories.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/laravel/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/failed_jobs.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/laravel/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/laravel/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/password_resets.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/laravel/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/laravel/users.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +246,7 @@
       <workItem from="1571934813806" duration="3789000" />
       <workItem from="1579650364292" duration="7950000" />
       <workItem from="1579699997276" duration="1829000" />
-      <workItem from="1579702283071" duration="9634000" />
+      <workItem from="1579702283071" duration="10023000" />
     </task>
     <servers />
   </component>
