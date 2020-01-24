@@ -17,6 +17,7 @@ class Category extends Model
     public $incrementing = false;
 
     protected $casts = [
-        'id' => 'string'
+        'id' => 'string',
+        'is_active' => 'boolean'
     ];
 }
