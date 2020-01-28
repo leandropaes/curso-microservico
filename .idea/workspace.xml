@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb824fe1-966d-4cc2-af89-3c9d26090b80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/BasicCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CastMemberController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/CastMember.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CastMemberFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CastMembersSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/BasicCrudControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Models/CastMemberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Stubs/Controllers/CategoryControllerStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Stubs/Models/CategoryStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Traits/TestSaves.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Traits/TestValidations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/Models/CastMemberTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/GenreRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,21 +153,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature/Models" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature/Models" />
+      <recent name="$PROJECT_DIR$/tests/Unit/Models" />
+      <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/database/seeds" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/Unit/Models" />
       <recent name="$PROJECT_DIR$/.docker/nginx" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
-      <recent name="$PROJECT_DIR$/tests/Feature/Models" />
-      <recent name="$PROJECT_DIR$/tests/Unit/Models" />
-      <recent name="$PROJECT_DIR$/.docker/app" />
-      <recent name="$PROJECT_DIR$/app/Http/Requests" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -211,38 +228,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.GenreControllerTest">
-    <configuration name="CategoryControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration name="CastMemberControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testDestroy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testDestroy" scope="Method" />
+    <configuration name="CastMemberTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\CastMemberTest" file="$PROJECT_DIR$/tests/Feature/Models/CastMemberTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testStore" scope="Method" />
+    <configuration name="CastMemberTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberTest" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testUpdate" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GenreControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" scope="Class" />
+    <configuration name="CastMemberTest.testCreate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\CastMemberTest" file="$PROJECT_DIR$/tests/Feature/Models/CastMemberTest.php" method="testCreate" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GenreControllerTest" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testDestroy" />
-        <item itemvalue="PHPUnit.CategoryControllerTest" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
+        <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.CastMemberTest (1)" />
+        <item itemvalue="PHPUnit.CastMemberTest.testCreate" />
+        <item itemvalue="PHPUnit.CastMemberTest" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +297,10 @@
       <workItem from="1580129466482" duration="599000" />
       <workItem from="1580139091823" duration="97000" />
       <workItem from="1580143994307" duration="458000" />
-      <workItem from="1580144675462" duration="395000" />
+      <workItem from="1580144675462" duration="7182000" />
+      <workItem from="1580173778332" duration="6941000" />
+      <workItem from="1580215106602" duration="1895000" />
+      <workItem from="1580234844565" duration="2010000" />
     </task>
     <servers />
   </component>
