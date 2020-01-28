@@ -2,22 +2,22 @@
 
 namespace Tests\Unit\Models;
 
-use App\Models\Genre;
+use App\Models\Category;
 use App\Models\Traits\Uuid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
-class GenreTest extends TestCase
+class CategoryUnitTest extends TestCase
 {
     use DatabaseMigrations;
 
-    private $genre;
+    private $category;
 
     protected function setUp(): void
     {
         parent::setUp();
-        $this->genre = new Genre();
+        $this->category = new Category();
     }
 
     public function testIfUseTraits()
@@ -27,15 +27,15 @@ class GenreTest extends TestCase
             Uuid::class
         ];
 
-        $genreTraits = array_keys(class_uses(Genre::class));
+        $categoryTraits = array_keys(class_uses(Category::class));
 
-        $this->assertEquals($traits, $genreTraits);
+        $this->assertEquals($traits, $categoryTraits);
     }
 
     public function testFillableAttribute()
     {
-        $fillable = ['name', 'is_active'];
-        $this->assertEquals($fillable, $this->genre->getFillable());
+        $fillable = ['name', 'description', 'is_active'];
+        $this->assertEquals($fillable, $this->category->getFillable());
     }
 
     public function testDatesAttribute()
@@ -43,20 +43,20 @@ class GenreTest extends TestCase
         $dates = ['deleted_at', 'created_at', 'updated_at'];
 
         foreach ($dates as $date) {
-            $this->assertContains($date, $this->genre->getDates());
+            $this->assertContains($date, $this->category->getDates());
         }
 
-        $this->assertCount(count($dates), $this->genre->getDates());
+        $this->assertCount(count($dates), $this->category->getDates());
     }
 
     public function testCastsAttribute()
     {
         $casts = ['id' => 'string', 'is_active' => 'boolean'];
-        $this->assertEquals($casts, $this->genre->getCasts());
+        $this->assertEquals($casts, $this->category->getCasts());
     }
 
     public function testIncrementing()
     {
-        $this->assertFalse($this->genre->incrementing);
+        $this->assertFalse($this->category->incrementing);
     }
 }

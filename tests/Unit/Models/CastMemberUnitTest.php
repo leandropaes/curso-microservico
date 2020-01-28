@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
-class CastMemberTest extends TestCase
+class CastMemberUnitTest extends TestCase
 {
     use DatabaseMigrations;
 
